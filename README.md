@@ -9,3 +9,5 @@ way to know if anyone is listening but that can be managed with some acknowledge
 
 I also liked that udp.parsePacket(); is non blocking. My testing showed that it took around 27ms to execute. This is fine for most of my 
 applications. 
+
+The transmit and receives are working individually, but the controller is watch dogging when running both TX and RX at the same time. I am unsure of the solution. 
